@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+/* font-family: 'Didact Gothic', sans-serif; */
+/* font-family: 'Fjalla One', sans-serif; */
+/* font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Fjalla One', sans-serif; */
+
+body h1 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body h2 {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+body h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+body p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body a {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* Digital  */
+
+#digital {
+    margin: 0 auto;
+    width: 100vh;
+    background-color: #fff;
+    text-align: center;
+    min-height: 100%;
+}
+
+#digital p {
+    font-size: 1.25rem;
+}
+
+#digital h2 {
+    font-size: 6.25rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#digital h1 {
+    font-size: 10rem;
+    text-transform: uppercase;
+}
+
+#digital div {
+    background: url(../img/portfolio1.jpeg) center no-repeat;
+    width: 100vh;
+    height: 100vh;
+}
+
+/* Sections */
+
+article {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+section:nth-of-type(odd) article .drive:hover~.one {
+    color: #fff;
+    opacity: 1;
+}  
+
+section:nth-of-type(even) article .drive:hover~.one {
+    color: #000;
+    opacity: 1;
+}
+
+/* Orbis */
+
+#orbis {
+    background: url(../img/portfolio2.jpg) center/cover no-repeat;
+    width: 100%;
+    margin: 0;
+}
+
+#orbis p {
+    color: #9E9E9E;
+    font-size: 1.25rem;
+}
+
+article p:last-of-type {
+    margin: 2.5rem 0 5rem 0;
+}
+
+section h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 7rem;
+    margin: 0;
+}
+
+section p {
+    font-size: 1.25rem;
+}
+
+section a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #fff;
+} 
+
+section a:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+section h3{
+    color: #9E9E9E;
+    opacity: 0.5;
+    font-size: 10.3125rem;
+    margin: 0;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    text-align: right;
+}
+
+/* Rollr */
+
+#rollr {
+    background: url(../img/portfolio3.png) right/cover no-repeat; 
+    margin: 0 auto;
+
+}
+
+#rollr h1 {
+    color: #000;
+}
+
+#rollr a {
+    color: #000;
+    border-color: #000;
+}
+
+#rollr a:hover{
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+#rollr a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+#rollr p {
+    color: #666666;
+}
+
+/* Galitos */
+
+#galitos {
+    background: url(../img/portfolio4.jpg) center/cover no-repeat;
+    width: 100%;
+    margin: 0;
+}
+
+#galitos p {
+    color: #9E9E9E;
+}
+
+/* Tretto */
+
+#tretto {
+    background: url(../img/portfolio5.png) right/cover no-repeat; 
+    margin: 0 auto;
+
+}
+
+#tretto h1 {
+    color: #000;
+}
+
+#tretto a {
+    color: #000;
+    border-color: #000;
+}
+
+#tretto a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+#tretto p {
+    color: #666666;
+}
+
+/* About */
+
+#about {
+    background-color: #000;
+    height: 100%;
+}
+
+#about h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 11.25rem;
+    text-align: center;
+}
+
+#about p {
+    color: #fff;
+    text-align: justify;
+    padding-left: 45%;
+    padding-right: 10%;
+}
+
+#about p:first-of-type {
+    color: #666666;
+    font-size: 1.375rem;
+    padding-top: 6%;
+}
+
+#about p:last-of-type {
+    color: #fff;
+    font-size: 3.75rem;
+    padding-top: 1%;
+}
+
+/* Contacts */
+
+section:last-of-type li {
+    list-style: none;
+    text-align: center;
+    padding-top: 5%;
+}
+
+section:last-of-type a {
+    text-decoration: none;
+    border: none;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #000;
+    font-size: 10rem;
+}
+
+.heart {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 50px;
+    animation: beat .50s infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes beat {
+    to {
+        transform: scale(1.2);
+    }
+}
